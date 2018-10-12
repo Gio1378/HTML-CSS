@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'cantarell';
+    src:url('Canterell-Regular.ttf') format('truetype');
+}
+
+body{
+    background-image: url("SolidAquaBlue.png");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'cantarell', sans-serif;
+    color: rgb(206,213,228);
+
+}
+section{
+    display: flex;
+}
+#lisere{
+    background-image: url("Milky_Way.jpg");
+    background-size:cover;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    text-align: center;
+    flex:2;
+}
+header h1, header p{   
+    text-shadow: 2px 2px 4px black;
+}
+
+header h1{   
+    font-size: 30px;
+}
+#tiger{
+    border: solid;
+    border-color: cadetblue;
+    border-width: thin;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+}
+#vignette{
+    border: solid;
+    border-width: thin;
+    border-color: cadetblue;
+    box-shadow: 2px 2px 4px black;
+}
+h2{
+    color:cadetblue;
+    text-shadow: 2px 2px 4px black;
+}
+strong{
+    text-shadow: 2px 2px 4px black;
+}
+#mes_competences h2{
+    margin-bottom: 60px;
+}
+#mes_competences ul ul li{
+    list-style-image:url(flecheblanchedroite.png);
+}
+#ma_formation h2{
+    margin-bottom: 60px;
+}
